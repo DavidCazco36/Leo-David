@@ -10,9 +10,14 @@
     <h1 id="title">Survay Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survay-form">
+      <label id="name-label">name</label> <br> 
       <input id="name" type="text" name="name" class="form-control" placeholder="Enter your name"
       ></input><br>
-      <input id="email" type="text" ></input>
+      <label id="email-label">email</label> <br>
+      <input id="email" type="text" placeholder="Enter yor Email" required></input> <br>
+      <label id="number-label">Age? (optional)</label> <br>
+      <input name="age" id="number" min="1" max="99" placeholder="Age">
+      <p>Which option best describes your current role?</p>
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
